@@ -1,0 +1,15 @@
+/Exercise-0/bin/Debug/net6.0/Exercise-0
+/Exercise-0/bin/Debug/net6.0/Exercise-0.deps.json
+/Exercise-0/bin/Debug/net6.0/Exercise-0.runtimeconfig.json
+/Exercise-0/bin/Debug/net6.0/Exercise-0.dll
+/Exercise-0/bin/Debug/net6.0/Exercise-0.pdb
+/Exercise-0/obj/Debug/net6.0/Exercise-0.csproj.AssemblyReference.cache
+/Exercise-0/obj/Debug/net6.0/Exercise-0.GeneratedMSBuildEditorConfig.editorconfig
+/Exercise-0/obj/Debug/net6.0/Exercise-0.AssemblyInfoInputs.cache
+/Exercise-0/obj/Debug/net6.0/Exercise-0.AssemblyInfo.cs
+/Exercise-0/obj/Debug/net6.0/Exercise-0.csproj.CoreCompileInputs.cache
+/Exercise-0/obj/Debug/net6.0/Exercise-0.dll
+/Exercise-0/obj/Debug/net6.0/refint/Exercise-0.dll
+/Exercise-0/obj/Debug/net6.0/Exercise-0.pdb
+/Exercise-0/obj/Debug/net6.0/Exercise-0.genruntimeconfig.cache
+/Exercise-0/obj/Debug/net6.0/ref/Exercise-0.dll
