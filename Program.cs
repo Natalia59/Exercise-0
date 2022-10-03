@@ -6,10 +6,14 @@ Console.Write("Введите второе число: ");
 string userInput2 = Console.ReadLine() ?? "";
 int userNumber2 = int.Parse(userInput2);
 
-Console.Write("a= " + userNumber1 + ", " + "b= " + userNumber2 + " -> ");
+Console.Write("Введите третье число: ");
+string userInput3 = Console.ReadLine() ?? "";
+int userNumber3 = int.Parse(userInput3);
 
-if (userNumber2 > userNumber1);
-{
-    Console.WriteLine ("userNumber1 == Минимум");
-    Console.WriteLine ("userNumber2 == Максимум");
-}
+int Max = userNumber1;
+
+if (userNumber1 > userNumber2) Max = userNumber1;
+else Max = userNumber2;
+if (userNumber3 > Max) Max = userNumber3;
+
+Console.WriteLine(userNumber1 + ", " + userNumber2 + ", " + userNumber3 + " -> " + Max);
