@@ -1,8 +1,14 @@
-﻿Console.Write("Введите первое число: ");
+﻿Console.Write("Введите число: ");
 string userInput1 = Console.ReadLine() ?? "";
 int userNumber1 = int.Parse(userInput1);
 
-Console.Write(userNumber1 + " -> ");
+int N = userNumber1;
+int count = 1;
 
-if (userNumber1 % 2 == 0) Console.WriteLine("Четное");
-else Console.WriteLine("Не четное");
+Console.Write(N + " -> ");
+
+while (count <= N)
+{
+    if (count % 2 == 0) Console.WriteLine(count +", ");
+    count++;
+}
