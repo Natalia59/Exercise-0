@@ -1,3 +1,4 @@
+// введите трехзначное число и среднюю цифру программа удаляет
 int number = new Random().Next(10, 1000);
 int number1 = number / 100;
 int number3 = number % 10;

@@ -1,14 +1,11 @@
-﻿Console.Write("Введите число: ");
-string userInput1 = Console.ReadLine() ?? "";
-int userNumber1 = int.Parse(userInput1);
+﻿// Программа выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-int N = userNumber1;
-int count = 1;
-
-Console.Write(N + " -> ");
-
-while (count <= N)
+int num = new Random().Next(100, 1000);
+Console.WriteLine(num);
+int a1 = num % 10;
+Console.WriteLine(a1);
 {
-    if (count % 2 == 0) Console.WriteLine(count +", ");
-    count++;
+    if (int.TryParse(Console.ReadLine(), out num))
+    if (99 < num && num < 1000);
 }
+    Console.WriteLine($"Третьей цифры нет");
