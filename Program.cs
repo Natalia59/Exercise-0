@@ -1,11 +1,17 @@
-﻿Console.Write("Введи число: ");
-int anyNumber = Convert.ToInt32(Console.ReadLine());
-string anyNumberText = Convert.ToString(anyNumber);
-if (anyNumberText.Length > 2)
+﻿Console.Write("Введите число: ");
+string? number = Console.ReadLine();
+
+void CheckingNumber(string number)
 {
-  Console.WriteLine("третья цифра -> " + anyNumberText[2]);
+  if (number[0]==number[4] || number[1]==number[3])
+  {
+    Console.WriteLine($"Ваше число: {number} - палиндром.");
+  }
+  else Console.WriteLine($"Ваше число: {number} - НЕ палиндром.");
 }
-else 
+
+if (number!.Length == 5)
 {
-  Console.WriteLine("-> третьей цифры нет");
+  CheckingNumber(number);
 }
+else Console.WriteLine($"Введи правильное число");

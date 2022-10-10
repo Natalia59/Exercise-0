@@ -3,31 +3,16 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.WriteLine("Введите число: ");
-int cube = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите число N: ");
+int N = int.Parse(Console.ReadLine() ?? "");
+Console.Write($"{N} -> ");
+PrintCube(N);
 
-void Cube(int[] cube)
+static void PrintCube(int N)
 {
-  int counter = 0;
-  int length = cube.Length;
-  while (counter <  length)
-  {
-    cube[counter] = Convert.ToInt32(Math.Pow(counter, 3));
-    counter++;
-  }
+    for (int i = 1; i < N; i++)
+    {
+        Console.Write($"{i * i * i}, ");
+    }
+    Console.Write($"{N * N * N} ");
 }
-
-void PrintArry(int[] coll)
-{
-  int count = coll.Length;
-  int index = 0;
-  while(index < count)
-  {
-    Console.Write(coll[index]+ " ");
-    index++;
-  }
-} 
-
-int[] arry = new int[cube+1];
-Cube(arry);
-PrintArry(arry);
